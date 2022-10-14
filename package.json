@@ -1,0 +1,23 @@
+{
+  "name": "@fiusdevelopment/files",
+  "version": "1.0.0",
+  "description": "A file manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FIUSdevelopment/files.git"
+  },
+  "author": "FIUS Development | Killer Boss Original",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FIUSdevelopment/files/issues"
+  },
+  "homepage": "https://github.com/FIUSdevelopment/files#readme",
+  "dependencies": {
+    "glob": "^8.0.3",
+    "util": "^0.12.4"
+  }
+}
