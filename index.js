@@ -35,7 +35,7 @@ function rmdir (file) {
             var fs = require('fs');
             var dir = file;
             if (fs.existsSync(dir)){
-                fs.rmdir(dir, {
+                fs.rm(dir, {
                     recursive: true,
                   }, (error) => {
                     if (error) {
@@ -56,3 +56,14 @@ module.exports = {
     mkdir,
     rmdir
 }
+/*
+()
+[]
+{}
+#
+@
+$
+'
+"
+`
+*/
