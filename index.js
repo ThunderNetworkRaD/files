@@ -5,7 +5,7 @@ function map (folder) {
             const { promisify } = require('util');
             const globPromise = promisify(glob);
         
-            globPromise(`${process.cwd()}${folder}`)
+            globPromise(`${folder}`)
             .then((mapped) => resolve(mapped))
         } catch (e) {
             console.log(e);
